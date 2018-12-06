@@ -6,7 +6,6 @@
 
 header{
     background: #ffffff;
-    padding: 0px;
     text-align: center;
     height: 116px;
     width: 100%;
@@ -20,45 +19,40 @@ header{
     margin: 0;
     color: white;
 }
-#name{
+/* had to float the h1 tag to the left */
+#head1{
     background: teal;
     color: white;
     padding: 30px;
-}
-#all_links{
-    padding: 0px;
-    text-align: right;
-    margin: 0;
-    background: blue;
-    color: white;
+    width: 100px;
+    float: left;
 }
 
 a{
     color: red;
+    float: right;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 body{
     background: gray;
     width: 960px;
-    padding: 40px;  
+    padding-left: 40px;  
+    padding-right: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
+#head2{
 
+}
 #photo{
     width: 300px;
     height: 300px;
+    float: left;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,{
-    background: #4aaaa5;
-    color: white;
-    
-}
 
 footer{
     border-top: 8px solid #4aaaa5;
