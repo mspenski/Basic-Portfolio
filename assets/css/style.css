@@ -4,11 +4,31 @@
     text-align: center;
     }
 
+body{
+        background: gray;
+        width: 960px;
+        padding-left: 40px;  
+        padding-right: 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        overflow: auto;
+    }
+
 header{
     background: #ffffff;
     text-align: center;
     height: 116px;
     width: 100%;
+}
+
+/* fixed nav bar by making position relative and pushing it down from the top halfway */
+a{
+    color: red;
+    float: right;
+    padding-right: 5px;
+    padding-left: 5px;
+    position: relative;
+    top: 58px;
 }
 
 #myname{
@@ -19,38 +39,44 @@ header{
     margin: 0;
     color: white;
 }
+
 /* had to float the h1 tag to the left */
 #head1{
     background: teal;
     color: white;
     padding: 30px;
-    width: 100px;
     float: left;
+    height: 116px;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    clear: both;
 }
 
-a{
-    color: red;
-    float: right;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-
-body{
-    background: gray;
-    width: 960px;
-    padding-left: 40px;  
-    padding-right: 40px;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
-#head2{
+#aboutme{
+    float: left;
+    margin-bottom:
 
 }
+
+#content{
+    background: tan;
+    overflow: auto;
+    width: 100%;
+}
+
+#headerInsideContent{
+    text-align: left;
+    background: tan;
+    color: teal;
+    height: 80px;
+    border-bottom: 2px solid gray;
+}
+
 #photo{
-    width: 300px;
-    height: 300px;
+    width: 150px;
     float: left;
+    overflow: auto;
 }
 
 
