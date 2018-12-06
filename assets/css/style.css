@@ -1,17 +1,48 @@
 *{
-    font:#777777;
     font-family: "Arial", "Helevetica Neue", Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    }
 
+header{
+    background: #ffffff;
+    padding: 0px;
+    text-align: center;
+    height: 116px;
+    width: 100%;
 }
 
-#header{
-    width: 100%;
-    background: greenyellow;
+#myname{
+    width: 150px;
+    padding: 0px;
+    text-align: center;
+    background: teal;
+    margin: 0;
+    color: white;
+}
+#name{
+    background: teal;
+    color: white;
+    padding: 30px;
+}
+#all_links{
+    padding: 0px;
+    text-align: right;
+    margin: 0;
+    background: blue;
+    color: white;
+}
+
+a{
+    color: red;
 }
 
 body{
-    width: 1024px  
+    background: gray;
+    width: 960px;
+    padding: 40px;  
 }
+
 
 #photo{
     width: 300px;
@@ -24,6 +55,13 @@ h3,
 h4,
 h5,
 h6,{
-    color: #4aaaa5;
+    background: #4aaaa5;
+    color: white;
     
+}
+
+footer{
+    border-top: 8px solid #4aaaa5;
+    padding: 20px;
+    background: purple; 
 }
