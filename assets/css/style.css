@@ -1,0 +1,29 @@
+*{
+    font:#777777;
+    font-family: "Arial", "Helevetica Neue", Helvetica, sans-serif;
+
+}
+
+#header{
+    width: 100%;
+    background: greenyellow;
+}
+
+body{
+    width: 1024px  
+}
+
+#photo{
+    width: 300px;
+    height: 300px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,{
+    color: #4aaaa5;
+    
+}
