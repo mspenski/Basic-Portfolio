@@ -5,17 +5,15 @@
     }
 
 body{
-        background: gray;
-        width: 960px;
-        padding-left: 40px;  
-        padding-right: 40px;
-        margin-left: 80px;
-        margin-right: 80px;
+        background-image: url('../images/bananas.png');
+        background-repeat: repeat;
+        margin: 0 auto;
         overflow: auto;
     }
 
 header{
     background: #ffffff;
+    border-bottom: 2px gray;
     text-align: center;
     height: 116px;
     width: 100%;
@@ -56,21 +54,23 @@ a{
 #aboutme{
     float: left;
     margin-bottom:
-
 }
 
 #content{
-    background: tan;
+    background: white;
     overflow: auto;
-    width: 100%;
+    width: 960px;
+    margin: 0 auto;
+    background-image:
+
 }
 
 #headerInsideContent{
     text-align: left;
-    background: tan;
     color: teal;
     height: 80px;
     border-bottom: 2px solid gray;
+    margin-top: 15px;
 }
 
 #photo{
@@ -78,10 +78,35 @@ a{
     float: left;
     overflow: auto;
 }
+#header{
+    margin-bottom: 20px;
+}
 
 
 footer{
     border-top: 8px solid #4aaaa5;
     padding: 20px;
-    background: purple; 
+    background: gray; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+            /* CSS SHEET FOR CONTACT */
+#mainContentContact{
+    background: blue;   
+    overflow: auto;
+    width: 100%;
+}
+form{
+    float: left;
+    margin: 0 auto;
+    width: 960px;
+}
+#contactName{
+    width: 100%;
+}
+
+#contactEmail{
+    width: 100%
 }
