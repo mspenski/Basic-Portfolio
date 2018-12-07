@@ -21,12 +21,12 @@ header{
 
 /* fixed nav bar by making position relative and pushing it down from the top halfway */
 a{
-    color: red;
+    color: grey;
     float: right;
     padding-right: 5px;
     padding-left: 5px;
     position: relative;
-    top: 58px;
+    top: 22px;
 }
 
 #myname{
@@ -42,10 +42,9 @@ a{
 #head1{
     background: teal;
     color: white;
-    padding: 30px;
+    padding: 15px 30px;
     float: left;
-    height: 116px;
-    margin-left: 100px;
+    height: 67px;
     margin-top: 0px;
     margin-bottom: 0px;
     clear: both;
@@ -53,7 +52,7 @@ a{
 
 #aboutme{
     float: left;
-    margin-bottom:
+    margin-left: 20px;
 }
 
 #content{
@@ -61,8 +60,6 @@ a{
     overflow: auto;
     width: 960px;
     margin: 0 auto;
-    background-image:
-
 }
 
 #headerInsideContent{
@@ -80,28 +77,31 @@ a{
 }
 #header{
     margin-bottom: 20px;
+    height: 67px;
 }
 
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
 
 footer{
     border-top: 8px solid #4aaaa5;
     padding: 20px;
     background: gray; 
-    position: fixed;
     bottom: 0;
     width: 100%;
+    margin-top: 10%;
 }
 
             /* CSS SHEET FOR CONTACT */
-#mainContentContact{
-    background: blue;   
+#mainContentContact{   
     overflow: auto;
     width: 100%;
 }
 form{
-    float: left;
     margin: 0 auto;
-    width: 960px;
+    width: 900px;
 }
 #contactName{
     width: 100%;
@@ -109,4 +109,22 @@ form{
 
 #contactEmail{
     width: 100%
+}
+/* Message label is not adhering to the .formLabels property and is being overwritten by the * Text align center tag */
+.formLabels{
+    text-align: left !important;
+}
+
+#textarea{
+    left: 0;
+    width: 900px;
+    height: 100px;
+}
+
+button{
+    background: teal;
+    color: white;
+    padding: 15px;
+    
+    
 }

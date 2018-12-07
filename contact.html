@@ -11,12 +11,14 @@
 
 <body>
     <header id='header'>
-        <!-- name in header bar -->
-        <h1 id="head1">Mitchell Spenski</h1>
-        <!-- links in header added -->
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+        <div id='container'>
+            <!-- name in header bar -->
+            <h1 id="head1">Mitchell Spenski</h1>
+            <!-- links in header added -->
+            <a href="contact.html">Contact</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="index.html">About</a>
+        </div>
     </header>
 
     <!-- main content -->
@@ -24,20 +26,22 @@
 
 
     <div id="content">
-         <header id="headerInsideContent">
+        <header id="headerInsideContent">
             <h1 id="aboutme">Contact</h1>
-         </header>
+        </header>
 
         <section id="mainContentContact">
             <form>
-                <p>Name</p>
+                <p class='formLabels'>Name</p>
                 <input type="text" id="contactName"><br>
-                <p>Email</p>
+                <p class='formLabels'>Email</p>
                 <input type="email" id="contactEmail"><br>
-                <p>Message</p>
-                <textarea id="textarea"></textarea>  <br> 
-            </form>
-            
+                <p class='formLabels'>Message</p>
+                <textarea id="textarea"></textarea> <br>
+                <p class='formLabels'><button class='formLabels'>submit</button></p>
+            </form> 
+
+
 
 
 
